@@ -24,7 +24,7 @@ public class Desafio2 {
 
 
         for (int i = 0; i <= numero; i++) {
-            if (numero == Desafio2.fibonacci(i)) {
+            if (numero == Desafio2.fibonacci(i) || numero == 2 || numero == 3)) {
                 pertence = true;
                 break;
             }
